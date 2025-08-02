@@ -1,0 +1,52 @@
+/* Estilos para tarjetas de proyectos y botón de GitHub */
+
+.project-card {
+  background: rgba(255,255,255,0.94);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 20px 0 rgba(34,34,59,0.08);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.project-card:hover {
+  box-shadow: 0 8px 32px 0 rgba(34,34,59,0.18);
+  transform: translateY(-4px) scale(1.015);
+}
+
+.github-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: .5rem 0;
+  background: #18181b;
+  color: #fff;
+  border: none;
+  border-radius: .7rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.06);
+  gap: 0.5rem;
+}
+.github-btn:hover {
+  background: #27272a;
+  color: #ffe082;
+  box-shadow: 0 4px 16px rgba(34,34,59,0.11);
+}
+
+/* Icono dentro del botón */
+.github-btn i {
+  font-size: 1.5rem;
+}
+
+/* Responsive para tarjetas */
+@media (max-width: 600px) {
+  .project-card {
+    padding: 1rem 0.5rem;
+  }
+}

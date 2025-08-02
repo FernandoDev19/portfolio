@@ -1,0 +1,567 @@
+{
+  "technologies": [
+    {
+      "imageUrl": "/icons/angular.ico",
+      "width": 45,
+      "title": "Angular - Uso activo",
+      "alt": "Angular icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/react.svg",
+      "width": 50,
+      "title": "React - En aprendizaje",
+      "alt": "React icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/nestjs.ico",
+      "width": 45,
+      "title": "NestJS - Uso activo",
+      "alt": "NestJS icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/nodejs.png",
+      "width": 45,
+      "title": "Node.js - Uso activo",
+      "alt": "NodeJS icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/typescript.webp",
+      "width": 45,
+      "title": "TypeScript - Uso activo",
+      "alt": "TypeScript icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/html.webp",
+      "width": 50,
+      "title": "HTML - Uso activo",
+      "alt": "HTML icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/css.webp",
+      "width": 50,
+      "title": "CSS - Uso activo",
+      "alt": "CSS icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/javascript.webp",
+      "width": 50,
+      "title": "JavaScript - Uso activo",
+      "alt": "JavaScript icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/bootstrap.webp",
+      "width": 55,
+      "title": "Bootstrap - Uso activo",
+      "alt": "Bootstrap icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/tailwind-css.webp",
+      "width": 45,
+      "title": "Tailwind CSS - Uso activo",
+      "alt": "Tailwind CSS icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/mysql.webp",
+      "width": 50,
+      "title": "MySQL - Uso activo",
+      "alt": "MySQL icon",
+      "techIndicator": "active"
+    },
+    {
+      "imageUrl": "/icons/mongodb-icon.svg",
+      "width": 55,
+      "title": "MongoDB - En aprendizaje",
+      "alt": "MongoDB icon",
+      "techIndicator": "learning"
+    },
+    {
+      "imageUrl": "/icons/spring-boot.svg",
+      "width": 55,
+      "title": "Spring Boot - En aprendizaje",
+      "alt": "Spring Boot icon",
+      "techIndicator": "learning"
+    },
+    {
+      "imageUrl": "/icons/dotnet-core.png",
+      "width": 95,
+      "title": "dotnet-core - Experiencia pasada (2 meses)",
+      "alt": "dotnet-core icon",
+      "techIndicator": "past"
+    },
+    {
+      "imageUrl": "/icons/laravel.webp",
+      "width": 45,
+      "title": "Laravel - Experiencia pasada",
+      "alt": "Laravel icon",
+      "techIndicator": "past"
+    },
+    {
+      "imageUrl": "/icons/postgresql.webp",
+      "width": 50,
+      "title": "PostgreSQL - Experiencia pasada",
+      "alt": "PostgreSQL icon",
+      "techIndicator": "past"
+    },
+    {
+      "imageUrl": "/icons/sql-server.png",
+      "width": 55,
+      "title": "SQL Server - Experiencia pasada (2 meses)",
+      "alt": "SQL Server icon",
+      "techIndicator": "past"
+    },
+    {
+      "imageUrl": "/icons/php.webp",
+      "width": 55,
+      "title": "PHP - Descontinuado",
+      "alt": "PHP icon",
+      "techIndicator": "discontinued"
+    }
+  ],
+  "complementarySkills": [
+    "Configuración y despliegue en AWS con Ubuntu",
+    "Gestión de procesos con PM2",
+    "Control de versiones con Git y GitHub / GitLab",
+    "APIs RESTful (Creación y consumo)",
+    "Diseños con Figma",
+    "Docker y Docker Compose",
+    "Redis",
+    "Configuración de servidores Nginx",
+    "Postman y Testing de APIs",
+    "Linux y Shell Scripting",
+    "Documentación con Swagger/OpenAPI",
+    "ORMs (TypeORM, Prisma, Eloquent)",
+    "Seguridad con JWT, OAuth2, Passport",
+    "SEO y Optimización Web",
+    "CI/CD con GitHub Actions",
+    "Metodologías Ágiles (Scrum)",
+    "Testing (Unit, Integration, E2E)",
+    "Arquitectura de Microservicios",
+    "Websockets y Comunicación en Tiempo Real",
+    "Monitoreo y Logging",
+    "Optimización de Bases de Datos",
+    "Clean Code y Patrones de Diseño"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "ZiziCar",
+      "subtitle": "(Landingpage con Administrador)",
+      "image": "/imgs/projects/zizicar-web.webp",
+      "imageAlt": "ZiziCar image",
+      "githubLinks": [
+        {
+          "text": "Frontend",
+          "url": "https://github.com/FernandoDev19/ZiziCar-LandingPage"
+        },
+        {
+          "text": "Backend",
+          "url": "https://github.com/FernandoDev19/ZiziCar-Backend"
+        }
+      ],
+      "technologies": [
+        {
+          "icon": "/icons/angular.ico",
+          "width": 30,
+          "title": "Angular",
+          "alt": "Angular icon"
+        },
+        {
+          "icon": "/icons/nestjs.ico",
+          "width": 30,
+          "title": "NestJS",
+          "alt": "NestJS icon"
+        },
+        {
+          "icon": "/icons/tailwind-css.webp",
+          "width": 30,
+          "title": "Tailwind CSS",
+          "alt": "Tailwind CSS icon"
+        },
+        {
+          "icon": "/icons/mysql.webp",
+          "width": 30,
+          "title": "MySQL",
+          "alt": "MySQL icon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Globalsoft",
+      "subtitle": "(Administrativo MVC privado)",
+      "image": "/imgs/projects/globalsoft.png",
+      "imageAlt": "Globalsoft image",
+      "description": "GlobalsoftNet es una solución empresarial modular desarrollada en .NET Core, orientada a la gestión administrativa, contable y de operaciones para organizaciones. El sistema está dividido en varios proyectos y módulos que interactúan entre sí, siguiendo principios de arquitectura limpia y separación de responsabilidades.",
+      "technologies": [
+        {
+          "icon": "/icons/dotnet-core.png",
+          "width": 50,
+          "title": ".NET Core",
+          "alt": ".NET Core icon"
+        },
+        {
+          "icon": "/icons/javascript.webp",
+          "width": 30,
+          "title": "JavaScript",
+          "alt": "JavaScript icon"
+        },
+        {
+          "icon": "/icons/bootstrap.webp",
+          "width": 30,
+          "title": "Bootstrap CSS",
+          "alt": "Bootstrap icon"
+        },
+        {
+          "icon": "/icons/sql-server.png",
+          "width": 30,
+          "title": "SQL Server",
+          "alt": "SQL Server icon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tu Repuesto Ya",
+      "subtitle": "(Landingpage con Administrador)",
+      "image": "/imgs/projects/try.png",
+      "imageAlt": "Tu Repuesto Ya image",
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/Tu-Repuesto-Ya"
+        }
+      ],
+      "technologies": [
+        {
+          "icon": "/icons/laravel.webp",
+          "width": 30,
+          "title": "Laravel",
+          "alt": "Laravel icon"
+        },
+        {
+          "icon": "/icons/livewire.svg",
+          "width": 30,
+          "title": "Livewire",
+          "alt": "Livewire icon"
+        },
+        {
+          "icon": "/icons/bootstrap.webp",
+          "width": 30,
+          "title": "Bootstrap CSS",
+          "alt": "Bootstrap CSS icon"
+        },
+        {
+          "icon": "/icons/mysql.webp",
+          "width": 30,
+          "title": "MySQL",
+          "alt": "MySQL icon"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Venta de Autos nuevos",
+      "subtitle": "(Landingpage)",
+      "image": "/imgs/projects/landingpage-venta-autos.png",
+      "imageAlt": "Landingpage venta-autos image",
+      "technologies": [
+        {
+          "icon": "/icons/angular.ico",
+          "width": 30,
+          "title": "Angular",
+          "alt": "Angular icon"
+        },
+        {
+          "icon": "/icons/tailwind-css.webp",
+          "width": 35,
+          "title": "Tailwind CSS",
+          "alt": "Tailwind CSS icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/landing-venta-autos-toyotas"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Product List Cart",
+      "subtitle": "(Ejercicio)",
+      "image": "/imgs/projects/product-list-react-exercise.png",
+      "imageAlt": "Product List Cart image",
+      "technologies": [
+        {
+          "icon": "/icons/react.svg",
+          "width": 30,
+          "title": "React",
+          "alt": "React icon"
+        },
+        {
+          "icon": "/icons/tailwind-css.webp",
+          "width": 35,
+          "title": "Tailwind CSS",
+          "alt": "Tailwind CSS icon"
+        },
+        {
+          "icon": "https://github.com/pmndrs/zustand/raw/main/docs/favicon.ico",
+          "width": 30,
+          "title": "Zustand",
+          "alt": "Zustand icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/product-list-with-cart-react-exercise"
+        }
+      ],
+      "demoLink": "https://product-list-cart-exercise.netlify.app"
+    },
+    {
+      "id": 6,
+      "title": "Tienda de maquillajes",
+      "subtitle": "(Con administrador)",
+      "image": "/imgs/projects/tienda-maquillaje.png",
+      "imageAlt": "Tienda de maquillajes image",
+      "technologies": [
+        {
+          "icon": "/icons/angular.ico",
+          "width": 30,
+          "title": "Angular",
+          "alt": "Angular icon"
+        },
+        {
+          "icon": "/icons/nestjs.ico",
+          "width": 30,
+          "title": "NestJS",
+          "alt": "NestJS icon"
+        },
+        {
+          "icon": "/icons/tailwind-css.webp",
+          "width": 35,
+          "title": "Tailwind CSS",
+          "alt": "Tailwind CSS icon"
+        },
+        {
+          "icon": "/icons/mysql.webp",
+          "width": 30,
+          "title": "MySQL",
+          "alt": "MySQL icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Frontend",
+          "url": "https://github.com/FernandoDev19/front-exotica"
+        },
+        {
+          "text": "Backend",
+          "url": "https://github.com/FernandoDev19/back-exotica"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Fiesta XV Años",
+      "subtitle": "(Invitación)",
+      "image": "/imgs/projects/birthday-invitation.png",
+      "imageAlt": "Birthday invitation image",
+      "technologies": [
+        {
+          "icon": "/icons/html.webp",
+          "width": 30,
+          "title": "HTML",
+          "alt": "HTML icon"
+        },
+        {
+          "icon": "/icons/css.webp",
+          "width": 30,
+          "title": "CSS",
+          "alt": "CSS icon"
+        },
+        {
+          "icon": "/icons/javascript.webp",
+          "width": 30,
+          "title": "JavaScript",
+          "alt": "JavaScript icon"
+        },
+        {
+          "icon": "/icons/php.webp",
+          "width": 35,
+          "title": "PHP",
+          "alt": "PHP icon"
+        },
+        {
+           "icon": "/icons/mysql.webp",
+          "width": 30,
+          "title": "MySQL",
+          "alt": "MySQL icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/fiesta-jhose-invitation-v2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Fiesta XV Años V2",
+      "subtitle": "(Invitación)",
+      "image": "/imgs/projects/birthday-invitation-jhose-v2.png",
+      "imageAlt": "Birthday invitation image",
+      "technologies": [
+        {
+          "icon": "/icons/html.webp",
+          "width": 30,
+          "title": "HTML",
+          "alt": "HTML icon"
+        },
+        {
+          "icon": "/icons/css.webp",
+          "width": 30,
+          "title": "CSS",
+          "alt": "CSS icon"
+        },
+        {
+          "icon": "/icons/javascript.webp",
+          "width": 30,
+          "title": "JavaScript",
+          "alt": "JavaScript icon"
+        },
+        {
+          "icon": "/icons/php.webp",
+          "width": 35,
+          "title": "PHP",
+          "alt": "PHP icon"
+        },
+        {
+           "icon": "/icons/mysql.webp",
+          "width": 30,
+          "title": "MySQL",
+          "alt": "MySQL icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/fiesta-jhose-invitation-v1"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Boda",
+      "subtitle": "(Invitación)",
+      "image": "/imgs/projects/boda-invitation.png",
+      "imageAlt": "Boda invitation image",
+      "technologies": [
+        {
+          "icon": "/icons/html.webp",
+          "width": 30,
+          "title": "HTML",
+          "alt": "HTML icon"
+        },
+        {
+          "icon": "/icons/css.webp",
+          "width": 30,
+          "title": "CSS",
+          "alt": "CSS icon"
+        },
+        {
+          "icon": "/icons/javascript.webp",
+          "width": 30,
+          "title": "JavaScript",
+          "alt": "JavaScript icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/boda-invitation"
+        }
+      ],
+      "demoLink": "https://boda-v1.netlify.app"
+    },
+    {
+      "id": 10,
+      "title": "Boda 2",
+      "subtitle": "(Invitación)",
+      "image": "/imgs/projects/boda-isa.png",
+      "imageAlt": "Boda isa invitation image",
+      "technologies": [
+        {
+          "icon": "/icons/html.webp",
+          "width": 30,
+          "title": "HTML",
+          "alt": "HTML icon"
+        },
+        {
+          "icon": "/icons/css.webp",
+          "width": 30,
+          "title": "CSS",
+          "alt": "CSS icon"
+        },
+        {
+          "icon": "/icons/javascript.webp",
+          "width": 30,
+          "title": "JavaScript",
+          "alt": "JavaScript icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/invitacion-boda-2"
+        }
+      ],
+      "demoLink": "https://boda-v2.netlify.app"
+    },
+    {
+      "id": 11,
+      "title": "Fiesta niños",
+      "subtitle": "(Invitación)",
+      "image": "/imgs/projects/fiesta-stitch.png",
+      "imageAlt": "Fiesta stitch invitation image",
+      "technologies": [
+        {
+          "icon": "/icons/html.webp",
+          "width": 30,
+          "title": "HTML",
+          "alt": "HTML icon"
+        },
+        {
+          "icon": "/icons/css.webp",
+          "width": 30,
+          "title": "CSS",
+          "alt": "CSS icon"
+        },
+        {
+          "icon": "/icons/javascript.webp",
+          "width": 30,
+          "title": "JavaScript",
+          "alt": "JavaScript icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/invitacion-fiesta-ninos"
+        }
+      ]
+    }
+  ]
+}

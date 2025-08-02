@@ -1,0 +1,78 @@
+li {
+  position: relative;
+}
+
+#tech-indicators-container {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 714px){
+    #tech-indicators-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+/* Indicadores de tecnología */
+.tech-indicator {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Verde - Uso activo */
+.tech-indicator.active {
+  background-color: #4caf50;
+}
+
+/* Amarillo - En aprendizaje */
+.tech-indicator.learning {
+  background-color: #ffc107;
+}
+
+/* Azul - Experiencia pasada */
+.tech-indicator.past {
+  background-color: #2196f3;
+}
+
+/* Rojo - Descontinuado */
+.tech-indicator.discontinued {
+  background-color: #f44336;
+}
+
+/* ******************************************** */
+
+/* Ejemplo de indicador */
+.tech-indicator-example {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Verde - Uso activo */
+.tech-indicator-example.active {
+  background-color: #4caf50;
+}
+
+/* Amarillo - En aprendizaje */
+.tech-indicator-example.learning {
+  background-color: #ffc107;
+}
+
+/* Azul - Experiencia pasada */
+.tech-indicator-example.past {
+  background-color: #2196f3;
+}
+
+/* Rojo - Descontinuado */
+.tech-indicator-example.discontinued {
+  background-color: #f44336;
+}
