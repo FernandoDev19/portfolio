@@ -48,14 +48,16 @@ export default function Description() {
       </div>
       {/* Description */}
       <p className="text-neutral-600 font-medium text-center mb-4">
-        Desarrollador Backend con experiencia en creación de APIs RESTfull,
-        sistemas escalables y aplicaciones fullstack. Domino frameworks como
-        NestJS, Express, Laravel y Angular, enfocándome en buenas prácticas,
-        seguridad, estructura limpia y rendimiento. Me apasiona crear soluciones
-        robustas que impacten en el usuario final.
+        Desarrollador Full Stack con experiencia en desarrollo web integral, 
+        especializado en la creación de aplicaciones web modernas y escalables. 
+        Domino tecnologías frontend como React y Angular, así como frameworks 
+        backend como NestJS, Express y Laravel. Me destaco por implementar 
+        arquitecturas robustas, siguiendo las mejores prácticas de desarrollo y 
+        enfocándome en crear experiencias de usuario excepcionales con soluciones 
+        técnicas eficientes.
       </p>
       <a
-        href="../src/assets/CV.pdf"
+        href="/CV.pdf"
         className="mb-12"
         download="Fernando Cano - CV.pdf"
       >
