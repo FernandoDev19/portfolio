@@ -47,7 +47,7 @@ export default function ProjectItem({
   return (
     <div className="item-project project-card">
       <div className="flex flex-col gap-4 justify-between">
-        <div className="relative" onClick={() => window.open(demoLink, '_blank')} onMouseEnter={showMask} onMouseLeave={hideMask}>
+        <div className="relative" onClick={() => demoLink ? window.open(demoLink, '_blank') : null} onMouseEnter={showMask} onMouseLeave={hideMask}>
           <img
             loading="lazy"
             className="mb-2 rounded-2xl object-cover w-full"
