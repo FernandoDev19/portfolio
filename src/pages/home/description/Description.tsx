@@ -6,6 +6,7 @@ export default function Description() {
         className="mb-6 rounded-full"
         width="280"
         src="/imgs/ft-perfil.webp"
+        fetchPriority="high"
         alt="Foto perfil"
         style={{
           boxShadow: "3px 2px 10px 1px #00ebff",
