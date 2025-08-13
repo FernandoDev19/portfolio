@@ -20,6 +20,7 @@
 
 body{
     font-family: 'Rokkitt', serif;
+    background-color: var(--color-neutral-100);
 }
 
 header{
@@ -98,6 +99,90 @@ nav{
 .text-9xl{
     font-size: 3.2rem;
 }
+
+/* Estilos para las categorías de tecnologías */
+.tech-category {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.tech-category h3 {
+    color: #2d3748;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+@media (max-width: 640px) {
+    .tech-grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        gap: 1rem;
+    }
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+}
+
+.tech-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.tech-item span {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #4a5568;
+    word-break: break-word;
+    max-width: 100%;
+}
+
+/* Animación de flotación */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.tech-item {
+  transition: transform 0.3s ease-in-out;
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Añadimos un pequeño retraso a cada elemento para que no floten todos al mismo tiempo */
+.tech-item:nth-child(5n+1) { animation-delay: 0s; }
+.tech-item:nth-child(5n+2) { animation-delay: 0.5s; }
+.tech-item:nth-child(5n+3) { animation-delay: 1s; }
+.tech-item:nth-child(5n+4) { animation-delay: 1.5s; }
+.tech-item:nth-child(5n+5) { animation-delay: 2s; }
 
 .text-8xl{
     font-size: 2.5rem;

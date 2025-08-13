@@ -1,130 +1,120 @@
 {
-  "technologies": [
+  "categories": [
     {
-      "imageUrl": "/icons/angular.ico",
-      "width": 45,
-      "title": "Angular - Uso activo",
-      "alt": "Angular icon",
-      "techIndicator": "active"
+      "id": "frontend",
+      "name": "Frontend",
+      "technologies": [
+        {
+          "imageUrl": "/icons/angular.ico",
+          "width": 45,
+          "title": "Angular - Uso activo",
+          "alt": "Angular icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/react.svg",
+          "width": 50,
+          "title": "React",
+          "alt": "React icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/bootstrap.webp",
+          "width": 55,
+          "title": "Bootstrap - Uso activo",
+          "alt": "Bootstrap icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/tailwind-css.webp",
+          "width": 50,
+          "title": "Tailwind CSS - Uso activo",
+          "alt": "Tailwind CSS icon",
+          "techIndicator": "active"
+        }
+      ]
     },
     {
-      "imageUrl": "/icons/react.svg",
-      "width": 50,
-      "title": "React - En aprendizaje",
-      "alt": "React icon",
-      "techIndicator": "active"
+      "id": "backend",
+      "name": "Backend",
+      "technologies": [
+        {
+          "imageUrl": "/icons/nodejs.png",
+          "width": 45,
+          "title": "Node.js - Uso activo",
+          "alt": "NodeJS icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/nestjs.ico",
+          "width": 45,
+          "title": "NestJS - Uso activo",
+          "alt": "NestJS icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/express.svg",
+          "width": 60,
+          "title": "Express.js - Uso activo",
+          "alt": "Express.js icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/spring-boot.svg",
+          "width": 50,
+          "title": "Spring Boot",
+          "alt": "Spring Boot icon",
+          "techIndicator": "learning"
+        },
+        {
+          "imageUrl": "/icons/dotnet.svg",
+          "width": 50,
+          "title": "Dotnet Core",
+          "alt": "Dotnet Core icon",
+          "techIndicator": "past"
+        },
+        {
+          "imageUrl": "/icons/laravel.webp",
+          "width": 45,
+          "title": "Laravel",
+          "alt": "Laravel icon",
+          "techIndicator": "past"
+        }
+      ]
     },
     {
-      "imageUrl": "/icons/nestjs.ico",
-      "width": 45,
-      "title": "NestJS - Uso activo",
-      "alt": "NestJS icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/nodejs.png",
-      "width": 45,
-      "title": "Node.js - Uso activo",
-      "alt": "NodeJS icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/typescript.webp",
-      "width": 45,
-      "title": "TypeScript - Uso activo",
-      "alt": "TypeScript icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/html.webp",
-      "width": 50,
-      "title": "HTML - Uso activo",
-      "alt": "HTML icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/css.webp",
-      "width": 50,
-      "title": "CSS - Uso activo",
-      "alt": "CSS icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/javascript.webp",
-      "width": 50,
-      "title": "JavaScript - Uso activo",
-      "alt": "JavaScript icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/bootstrap.webp",
-      "width": 55,
-      "title": "Bootstrap - Uso activo",
-      "alt": "Bootstrap icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/tailwind-css.webp",
-      "width": 45,
-      "title": "Tailwind CSS - Uso activo",
-      "alt": "Tailwind CSS icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/mysql.webp",
-      "width": 50,
-      "title": "MySQL - Uso activo",
-      "alt": "MySQL icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/mongodb-icon.svg",
-      "width": 55,
-      "title": "MongoDB - Uso activo",
-      "alt": "MongoDB icon",
-      "techIndicator": "active"
-    },
-    {
-      "imageUrl": "/icons/spring-boot.svg",
-      "width": 55,
-      "title": "Spring Boot - En aprendizaje",
-      "alt": "Spring Boot icon",
-      "techIndicator": "learning"
-    },
-    {
-      "imageUrl": "/icons/dotnet-core.png",
-      "width": 95,
-      "title": "dotnet-core - Experiencia pasada (2 meses)",
-      "alt": "dotnet-core icon",
-      "techIndicator": "past"
-    },
-    {
-      "imageUrl": "/icons/laravel.webp",
-      "width": 45,
-      "title": "Laravel - Experiencia pasada",
-      "alt": "Laravel icon",
-      "techIndicator": "past"
-    },
-    {
-      "imageUrl": "/icons/postgresql.webp",
-      "width": 50,
-      "title": "PostgreSQL - Experiencia pasada",
-      "alt": "PostgreSQL icon",
-      "techIndicator": "past"
-    },
-    {
-      "imageUrl": "/icons/sql-server.png",
-      "width": 55,
-      "title": "SQL Server - Experiencia pasada (2 meses)",
-      "alt": "SQL Server icon",
-      "techIndicator": "past"
-    },
-    {
-      "imageUrl": "/icons/php.webp",
-      "width": 55,
-      "title": "PHP - Descontinuado",
-      "alt": "PHP icon",
-      "techIndicator": "discontinued"
+      "id": "database",
+      "name": "Bases de Datos",
+      "technologies": [
+        {
+          "imageUrl": "/icons/mongodb-icon.svg",
+          "width": 50,
+          "title": "MongoDB - Uso activo",
+          "alt": "MongoDB icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/mysql.webp",
+          "width": 50,
+          "title": "MySQL - Uso activo",
+          "alt": "MySQL icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/postgresql.webp",
+          "width": 50,
+          "title": "PostgreSQL - Uso activo",
+          "alt": "PostgreSQL icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/sql-server.png",
+          "width": 50,
+          "title": "SQL Server",
+          "alt": "SQL Server icon",
+          "techIndicator": "active"
+        }
+      ]
     }
   ],
   "complementarySkills": [
@@ -143,13 +133,9 @@
     "Seguridad con JWT, OAuth2, Passport",
     "SEO y Optimización Web",
     "CI/CD con GitHub Actions",
-    "Metodologías Ágiles (Scrum)",
-    "Testing (Unit, Integration, E2E)",
-    "Arquitectura de Microservicios",
-    "Websockets y Comunicación en Tiempo Real",
-    "Monitoreo y Logging",
-    "Optimización de Bases de Datos",
-    "Clean Code y Patrones de Diseño"
+    "Manejo de terminal y comandos",
+    "Metodologías ágiles (Scrum, Kanban)",
+    "Trabajo en equipo y comunicación efectiva"
   ],
   "projects": [
     {

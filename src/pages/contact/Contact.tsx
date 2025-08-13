@@ -61,7 +61,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex flex-col items-center contact">
+    <div className="flex flex-col items-center contact bg-white/50">
       <h1
         className="text-8xl font-bold text-gray-600 mb-8"
         style={{ lineHeight: "0.9" }}
@@ -121,7 +121,7 @@ export default function Contact() {
 
         <button
           type="submit"
-          className={`about-me-buttons justify-center ${
+          className={`about-me-buttons justify-center shadow-md ${
             isSubmitting ? "opacity-50 cursor-not-allowed" : ""
           }`}
           disabled={isSubmitting}

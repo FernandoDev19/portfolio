@@ -15,7 +15,7 @@ export default function Home() {
 
       <NavLink to={"/projects"} id="btnNavigateToProjects" className="md:hidden">
         <button
-          className="font-medium text-neutral-700"
+          className="font-medium text-neutral-700 cursor-pointer shadow-md"
           style={{
             fontSize: "1.3rem",
             backgroundColor: "var(--primary)",

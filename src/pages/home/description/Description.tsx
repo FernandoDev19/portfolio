@@ -15,7 +15,7 @@ export default function Description() {
 
       {/* Título */}
       <h1
-        className="text-5xl text-center font-bold text-neutral-600 mb-0"
+        className="text-5xl md:text-6xl text-center font-bold text-neutral-600 mb-0"
         style={{ lineHeight: "0.9" }}
       >
         Desarrollador Web
@@ -37,7 +37,7 @@ export default function Description() {
       </div>
 
       {/* Social links */}
-      <div className="p-3 rounded-full w-full max-w-[500px] flex justify-evenly gap-4 mb-4 bg-neutral-100">
+      <div className="p-3 rounded-full w-full max-w-[500px] flex justify-evenly gap-4 mb-4 bg-white/50 shadow-md">
         <a href="https://github.com/FernandoDev19" target="_blank">
           <button
             type="button"
@@ -62,7 +62,7 @@ export default function Description() {
         className="mb-12"
         download="Fernando Cano - CV.pdf"
       >
-        <button className="about-me-buttons text-neutral-700">
+        <button className="about-me-buttons text-neutral-700 cursor-pointer shadow-md">
           <i className="fas fa-download mr-3"></i>
           Descargar CV
         </button>

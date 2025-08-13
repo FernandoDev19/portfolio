@@ -9,7 +9,7 @@ export function Navigation({ isOpen }: NavigationProps) {
     <div
       id="mobile-menu"
       role="menu"
-      className={`absolute top-14 right-8 bg-white backdrop-blur-md md:static shadow-md md:shadow-none rounded-md transition-all duration-200 ease-in ${isOpen ? 'block' : 'hidden md:block'}`}
+      className={`absolute top-14 right-8 bg-white md:bg-transparent backdrop-blur-md md:static shadow-md md:shadow-none rounded-md transition-all duration-200 ease-in ${isOpen ? 'block' : 'hidden md:block'}`}
     >
       <ul className="flex flex-col md:flex-row px-2 pb-3 pt-2">
         <li>
