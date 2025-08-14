@@ -196,12 +196,8 @@
       "imageAlt": "ZiziCar image",
       "githubLinks": [
         {
-          "text": "Frontend",
-          "url": "https://github.com/FernandoDev19/ZiziCar-LandingPage"
-        },
-        {
-          "text": "Backend",
-          "url": "https://github.com/FernandoDev19/ZiziCar-Backend"
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/ZiziCar"
         }
       ],
       "technologies": [
