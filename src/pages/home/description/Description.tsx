@@ -46,6 +46,14 @@ export default function Description() {
             <i className="fab fa-github text-2xl"></i>
           </button>
         </a>
+        <a href="https://www.linkedin.com/in/fernando-cano-developer" target="_blank">
+          <button
+            type="button"
+            className="about-me-buttons text-neutral-700 cursor-pointer"
+          >
+            <i className="fab fa-linkedin text-2xl"></i>
+          </button>
+        </a>
       </div>
       {/* Description */}
       <p className="text-neutral-600 font-medium text-center mb-4">
