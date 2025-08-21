@@ -58,7 +58,7 @@ export default function Description() {
       {/* Description */}
       <p className="text-neutral-600 font-medium text-center mb-4">
         Apasionado Desarrollador JavaScript Full Stack con más de 2 años de experiencia en la creación y mantenimiento de aplicaciones web eficientes.
-        Experto en tecnologías como Angular, React, NestJS y Express, además de habilidades en la optimización de bases de datos.
+        Experto en tecnologías como <b>Angular</b>, <b>React</b>, <b>NestJS</b> y <b>Express</b>, además de habilidades en la optimización de bases de datos.
         Alcancé mejoras significativas en la eficiencia operativa mediante la implementación de soluciones tecnológicas sistémicas en proyectos anteriores.
         Listo para contribuir al éxito de un equipo innovador con habilidades específicas que cumplen con las necesidades del mercado.
       </p>
