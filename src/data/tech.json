@@ -6,7 +6,7 @@
       "technologies": [
         {
           "imageUrl": "/icons/angular.ico",
-          "width": 45,
+          "width": 40,
           "title": "Angular - Uso activo",
           "alt": "Angular icon",
           "techIndicator": "active"
@@ -16,6 +16,13 @@
           "width": 50,
           "title": "React",
           "alt": "React icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "https://nextjs.org/favicon.ico?favicon.d29c4393.ico",
+          "width": 30,
+          "title": "NextJS - Uso activo",
+          "alt": "NextJS icon",
           "techIndicator": "active"
         },
         {
@@ -58,13 +65,6 @@
           "title": "Express.js - Uso activo",
           "alt": "Express.js icon",
           "techIndicator": "active"
-        },
-        {
-          "imageUrl": "/icons/spring-boot.svg",
-          "width": 50,
-          "title": "Spring Boot",
-          "alt": "Spring Boot icon",
-          "techIndicator": "learning"
         },
         {
           "imageUrl": "/icons/dotnet.svg",
@@ -112,7 +112,7 @@
           "width": 50,
           "title": "SQL Server",
           "alt": "SQL Server icon",
-          "techIndicator": "active"
+          "techIndicator": "past"
         }
       ]
     }
@@ -124,7 +124,6 @@
     "APIs RESTful (Creación y consumo)",
     "Diseños con Figma",
     "Docker y Docker Compose",
-    "Redis",
     "Configuración de servidores Nginx",
     "Postman y Testing de APIs",
     "Linux y Shell Scripting",

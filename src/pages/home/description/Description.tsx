@@ -18,7 +18,7 @@ export default function Description() {
         className="text-5xl md:text-6xl text-center font-bold text-neutral-600 mb-0"
         style={{ lineHeight: "0.9" }}
       >
-        Desarrollador Web
+        Desarrollador JavaScript
       </h1>
 
       {/* Subtítulo */}
@@ -57,13 +57,10 @@ export default function Description() {
       </div>
       {/* Description */}
       <p className="text-neutral-600 font-medium text-center mb-4">
-        Desarrollador Full Stack con experiencia en desarrollo web integral, 
-        especializado en la creación de aplicaciones web modernas y escalables. 
-        Domino tecnologías frontend como React y Angular, así como frameworks 
-        backend como NestJS, Express y Laravel. Me destaco por implementar 
-        arquitecturas robustas, siguiendo las mejores prácticas de desarrollo y 
-        enfocándome en crear experiencias de usuario excepcionales con soluciones 
-        técnicas eficientes.
+        Apasionado Desarrollador JavaScript Full Stack con más de 2 años de experiencia en la creación y mantenimiento de aplicaciones web eficientes.
+        Experto en tecnologías como Angular, React, NestJS y Express, además de habilidades en la optimización de bases de datos.
+        Alcancé mejoras significativas en la eficiencia operativa mediante la implementación de soluciones tecnológicas sistémicas en proyectos anteriores.
+        Listo para contribuir al éxito de un equipo innovador con habilidades específicas que cumplen con las necesidades del mercado.
       </p>
       <a
         href="/CV.pdf"
