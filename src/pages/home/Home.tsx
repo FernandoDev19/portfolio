@@ -1,4 +1,3 @@
-import { NavLink } from "react-router";
 import Description from "./description/Description";
 import Skills from "./skills/Skills";
 import ProjectsPreview from "./projects-preview/ProjectsPreview";
@@ -22,7 +21,7 @@ export default function Home() {
         <Contact />
       </div>
 
-      <NavLink
+      {/* <NavLink
         to={"/projects"}
         id="btnNavigateToProjects"
         className="md:hidden"
@@ -41,7 +40,7 @@ export default function Home() {
         >
           Proyectos <i className="fas fa-arrow-right"></i>
         </button>
-      </NavLink>
+      </NavLink> */}
     </>
   );
 }
