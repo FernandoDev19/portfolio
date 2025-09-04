@@ -1,19 +1,32 @@
 import { NavLink } from "react-router";
-import ComplementarySkills from "./complementary-skills/ComplementarySkills";
 import Description from "./description/Description";
 import Skills from "./skills/Skills";
+import ProjectsPreview from "./projects-preview/ProjectsPreview";
+import Contact from "./contact/Contact";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
   return (
     <>
       <div className="flex flex-col items-center justify-center home">
         <Description />
 
+        <ProjectsPreview />
+
         <Skills />
-        <ComplementarySkills />
+        {/* <ComplementarySkills /> */}
+        <Contact />
       </div>
 
-      <NavLink to={"/projects"} id="btnNavigateToProjects" className="md:hidden">
+      <NavLink
+        to={"/projects"}
+        id="btnNavigateToProjects"
+        className="md:hidden"
+      >
         <button
           className="font-medium text-neutral-700 cursor-pointer shadow-md"
           style={{

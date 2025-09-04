@@ -35,17 +35,6 @@ export function Navigation({ isOpen }: NavigationProps) {
             Proyectos
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/contact"
-            role="menuitem"
-            className={({ isActive }) =>
-              `nav_item transition-all duration-300 ease block px-3 py-2 text-base font-medium text-gray-600 rounded-md hover:bg-gray-100 ${isActive ? 'active' : ''}`
-            }
-          >
-            Contacto
-          </NavLink>
-        </li>
       </ul>
     </div>
   );
