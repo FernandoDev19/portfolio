@@ -1,6 +1,6 @@
 export default function Description() {
   return (
-    <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between w-full gap-8 lg:gap-12 mb-24">
+    <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between w-full gap-8 lg:gap-12 mb-12 md:mb-24">
       {/* Contenido izquierdo */}
       <div className="flex flex-col lg:flex-1">
         {/* Título principal */}
