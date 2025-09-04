@@ -190,7 +190,7 @@
     {
       "id": 2,
       "title": "ZiziCar",
-      "subtitle": "(Landingpage con Administrador)",
+      "subtitle": "ZiziCar es una plataforma digital integral que revoluciona el mercado de alquiler de vehículos en Colombia, conectando a usuarios que buscan rentar automóviles con múltiples agencias de alquiler y propietarios particulares en un ecosistema unificado.",
       "image": "/imgs/projects/zizicar-web.webp",
       "imageAlt": "ZiziCar image",
       "githubLinks": [
