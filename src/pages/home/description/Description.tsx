@@ -105,21 +105,6 @@ export default function Description() {
             </button>
           </a>
         </div> */}
-
-        {/* Información de contacto */}
-        <div className="mb-4 flex flex-col lg:flex-row items-center gap-2 text-center lg:text-right">
-          <p className="font-medium m-0 text-neutral-600 dark:text-neutral-100 hover:text-primary transition-colors duration-200 ease">
-            <i className="fab fa-whatsapp mr-2"></i>
-            <a href="tel:+573005442580">+573005442580</a>
-          </p>
-          <span className="hidden lg:inline">|</span>
-          <p className="font-medium m-0 text-neutral-600 dark:text-neutral-100 hover:text-primary transition-colors duration-200 ease">
-            <i className="fas fa-envelope mr-2"></i>
-            <a href="mailto:fernandocanotapias@gmail.com">
-              fernandocanotapias@gmail.com
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );
