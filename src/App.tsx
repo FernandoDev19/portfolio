@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound"
 
 function App() {
   return (
-    <>
+    <div className="bg-neutral-100 dark:bg-neutral-900">
       <BrowserRouter>
         <Header />
         <main className="mx-auto">
@@ -20,7 +20,7 @@ function App() {
       </BrowserRouter>
       
       <Footer />
-    </>
+    </div>
   )
 }
 

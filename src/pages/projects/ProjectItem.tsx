@@ -45,7 +45,7 @@ export default function ProjectItem({
     }
 
   return (
-    <div className="item-project project-card !bg-white/50">
+    <div className="item-project project-card !bg-white/50 dark:!bg-neutral-800 shadow-lg">
       <div className="flex flex-col gap-4 justify-between">
         <div className="relative" onClick={() => demoLink ? window.open(demoLink, '_blank') : null} onMouseEnter={showMask} onMouseLeave={hideMask}>
           <img
@@ -60,14 +60,14 @@ export default function ProjectItem({
           </div>
         </div>
         
-        <h1 className="text-center text-gray-600 font-medium">
+        <h1 className="text-center text-neutral-600 dark:text-neutral-100 font-medium">
           {title}
           {subtitle && <br />}
           {subtitle}
         </h1>
 
         {description && (
-          <p className="text-sm text-gray">{description}</p>
+          <p className="text-sm text-neutral-600 dark:text-neutral-100 text-center">{description}</p>
         )}
 
          {demoLink && (
@@ -94,7 +94,7 @@ export default function ProjectItem({
                 rel="noopener noreferrer"
               >
                 <button
-                  className="github-btn"
+                  className="github-btn !bg-neutral-900 hover:!bg-neutral-800 dark:hover:!bg-neutral-700"
                   style={{
                     borderRadius:
                       githubLinks.length > 1

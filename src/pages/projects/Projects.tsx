@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <div className="flex flex-col items-center projects">
-      <h1 className="text-8xl font-bold text-gray-600 mb-8" style={{lineHeight: "0.9"}}>
+      <h1 className="text-8xl mt-10 font-bold text-neutral-600 dark:text-neutral-100 mb-8" style={{lineHeight: "0.9"}}>
         Proyectos
       </h1>
       <div

@@ -26,7 +26,7 @@ export default function TechItem({imageUrl, width, title, alt, techIndicator}: P
           techIndicator === 'past' ? 'bg-blue-500' : 'bg-red-500'
         }`}></div>
       </div>
-      <span className="text-xs mt-2 text-center">{title.split(' - ')[0]}</span>
+      <span className="text-xs mt-2 text-center text-neutral-600 dark:!text-neutral-100">{title.split(' - ')[0]}</span>
     </li>
   );
 }

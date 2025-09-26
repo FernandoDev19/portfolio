@@ -32,7 +32,7 @@ export default function TechContainer() {
     <div className="space-y-12 mb-12">
       {categories.map((category) => (
         <div key={category.id} className="mb-8">
-          <h3 className="text-xl font-bold text-neutral-700 mb-6 text-center">
+          <h3 className="text-xl font-bold text-neutral-700 dark:text-neutral-100 mb-6 text-center">
             {category.name}
           </h3>
           <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-12">

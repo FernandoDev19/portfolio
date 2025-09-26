@@ -11,7 +11,7 @@ export function BurgerButton({ isOpen, onClick }: BurgerButtonProps) {
       aria-expanded={isOpen}
       aria-controls="mobile-menu"
       aria-label="Abrir menú de navegación"
-      className="md:hidden relative inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-primary hover:text-white w-max-content"
+      className="md:hidden relative inline-flex items-center justify-center rounded-md p-2 text-neutral-600 dark:text-neutral-100 hover:bg-primary hover:text-white w-max-content"
     >
       <span className="absolute -inset-0.5"></span>
       <svg

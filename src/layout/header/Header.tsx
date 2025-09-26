@@ -8,10 +8,10 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="mx-auto my-4 sticky top-4 z-2 w-[95vw]">
-      <nav className="bg-white/50 backdrop-blur-md border-b !px-6 border-white/10 rounded-full" role="navigation">
-        <div className="mx-auto flex justify-between py-4">
-          <h1 className="px-2 pb-3 pt-2 text-gray-600 font-heligthon-signature font-medium text-4xl">
+    <header className="mx-auto sticky top-4 z-2 w-[95vw]">
+      <nav className="bg-white/50 dark:bg-neutral-800/50 backdrop-blur-md border-b !px-6 border-white/10 rounded-full" role="navigation">
+        <div className="mx-auto flex items-center justify-between py-4">
+          <h1 className="px-4 text-gray-600 dark:text-white font-heligthon-signature font-medium text-4xl">
             Fernando Cano
           </h1>
           

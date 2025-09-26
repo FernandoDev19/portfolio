@@ -64,13 +64,13 @@ export default function Contact() {
     <>
       <h1
         id="contact"
-        className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-600 border-b border-l rounded-xl border-neutral-300 py-2 px-4 w-full mb-12"
+        className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-600 dark:text-neutral-100 border-b border-l rounded-xl border-neutral-300 py-2 px-4 w-full mb-12"
       >
         Contacto
       </h1>
 
       <div className="flex flex-col md:flex-row gap-6 justify-between items-center w-full">
-        <div className="w-full md:w-1/2 text-neutral-600 text-2xl text-center">
+        <div className="w-full md:w-1/2 text-neutral-600 dark:text-neutral-100 text-2xl text-center">
           <p>Estoy interesado en trabajar como Desarrollador JavaScript Full Stack.</p>
           <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarme.</p>
         </div>
@@ -78,17 +78,17 @@ export default function Contact() {
         <form
           id="contact-form"
           name="contact"
-          className="contact-form contact bg-white/50 w-full md:w-1/2"
+          className="contact-form contact bg-white/50 dark:bg-neutral-800 w-full md:w-1/2"
           onSubmit={handleSubmit(onSubmit)}
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form-group">
-            <label htmlFor="name">Nombre</label>
+            <label className="!text-neutral-600 dark:!text-neutral-100" htmlFor="name">Nombre</label>
             <input
               type="text"
               id="name"
               placeholder="Tu nombre"
-              className={`${errors.name ? "border-red-500" : ""}`}
+              className={`${errors.name ? "border-red-500" : ""} !text-neutral-600 dark:!text-neutral-100`}
               {...register("name")}
             />
             {errors.name && (
@@ -99,12 +99,12 @@ export default function Contact() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Correo Electrónico</label>
+            <label className="!text-neutral-600 dark:!text-neutral-100" htmlFor="email">Correo Electrónico</label>
             <input
               type="email"
               id="email"
               placeholder="Tu correo"
-              className={`${errors.email ? "border-red-500" : ""}`}
+              className={`${errors.email ? "border-red-500" : ""} !text-neutral-600 dark:!text-neutral-100`}
               {...register("email")}
             />
             {errors.email && (
@@ -115,12 +115,12 @@ export default function Contact() {
           </div>
 
           <div className="form-group">
-            <label htmlFor="message">Mensaje</label>
+            <label className="!text-neutral-600 dark:!text-neutral-100" htmlFor="message">Mensaje</label>
             <textarea
               id="message"
               rows={4}
               placeholder="Escribe tu mensaje"
-              className={`${errors.message ? "border-red-500" : ""}`}
+              className={`${errors.message ? "border-red-500" : ""} !text-neutral-600 dark:!text-neutral-100`}
               {...register("message")}
             ></textarea>
             {errors.message && (
