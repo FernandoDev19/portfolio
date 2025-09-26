@@ -16,26 +16,35 @@ export default function Description() {
           className="text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-bold mb-6"
           style={{ lineHeight: "0.9" }}
         >
-          <span className="text-primary">
-            Desarrollador JavaScript Full Stack
-          </span>
+          <span className="text-primary">Desarrollador Full Stack</span>
         </h2>
 
         {/* Descripción */}
         <p className="text-neutral-400 dark:text-neutral-300 text-center md:text-left mb-8 max-w-md">
-          Apasionado Desarrollador JavaScript Full Stack con más de 2 años de
-          experiencia en la creación y mantenimiento de aplicaciones web
-          eficientes.
+          Apasionado Desarrollador Full Stack con más de 2 años de experiencia
+          en la creación y mantenimiento de aplicaciones web eficientes.
         </p>
 
         {/* Botón de contacto */}
         <div className="flex justify-center md:justify-start gap-4 mb-8 lg:mb-0 md:mx-0">
+          <a href="https://github.com/FernandoDev19" target="_blank">
+            <button
+              type="button"
+              className="about-me-buttons text-neutral-700 cursor-pointer !rounded-full !p-4"
+            >
+              <i className="fab fa-github text-2xl"></i>
+            </button>
+          </a>
           <a
-            href="#contact"
-            type="button"
-            className="about-me-buttons text-neutral-700 cursor-pointer w-max text-xl"
+            href="https://www.linkedin.com/in/fernando-cano-developer"
+            target="_blank"
           >
-            Contactame!
+            <button
+              type="button"
+              className="about-me-buttons text-neutral-700 cursor-pointer !rounded-full !p-4"
+            >
+              <i className="fab fa-linkedin text-2xl"></i>
+            </button>
           </a>
 
           <a
@@ -43,7 +52,7 @@ export default function Description() {
             className="block text-center"
             download="Fernando Cano - CV.pdf"
           >
-            <button className="about-me-buttons text-neutral-700 cursor-pointer shadow-md">
+            <button className="about-me-buttons text-neutral-700 cursor-pointer shadow-md text-lg !rounded-full">
               <i className="fas fa-download mr-3"></i>
               Descargar CV
             </button>
@@ -75,11 +84,11 @@ export default function Description() {
         </div>
 
         {/* Social links */}
-        <div className="p-3 rounded-full w-full max-w-[300px] lg:max-w-[300px] flex justify-evenly gap-4 mb-4 bg-white/50 dark:bg-neutral-800 shadow-md">
+        {/* <div className="p-3 rounded-full w-full max-w-[300px] lg:max-w-[300px] flex justify-evenly gap-4 mb-4 bg-white/50 dark:bg-neutral-800 shadow-md">
           <a href="https://github.com/FernandoDev19" target="_blank">
             <button
               type="button"
-              className="about-me-buttons text-neutral-700 cursor-pointer"
+              className="about-me-buttons text-neutral-700 cursor-pointer !rounded-full !p-3"
             >
               <i className="fab fa-github text-2xl"></i>
             </button>
@@ -90,12 +99,12 @@ export default function Description() {
           >
             <button
               type="button"
-              className="about-me-buttons text-neutral-700 cursor-pointer"
+              className="about-me-buttons text-neutral-700 cursor-pointer !rounded-full !p-3"
             >
               <i className="fab fa-linkedin text-2xl"></i>
             </button>
           </a>
-        </div>
+        </div> */}
 
         {/* Información de contacto */}
         <div className="mb-4 flex flex-col lg:flex-row items-center gap-2 text-center lg:text-right">

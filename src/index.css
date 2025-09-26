@@ -195,7 +195,9 @@ nav{
 
 .about-me-buttons{
     padding: 10px;
-    background-color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
     border-radius: .375rem;
     display: flex;
     align-items: center;
@@ -204,6 +206,7 @@ nav{
 
 .about-me-buttons:hover{
     background-color: var(--primary-600);
+    color: white;
 }
 
 .list-style-disc{
