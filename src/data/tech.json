@@ -1,47 +1,6 @@
 {
   "categories": [
     {
-      "id": "frontend",
-      "name": "Frontend",
-      "technologies": [
-        {
-          "imageUrl": "/icons/angular.ico",
-          "width": 40,
-          "title": "Angular - Uso activo",
-          "alt": "Angular icon",
-          "techIndicator": "active"
-        },
-        {
-          "imageUrl": "/icons/react.svg",
-          "width": 50,
-          "title": "React",
-          "alt": "React icon",
-          "techIndicator": "active"
-        },
-        {
-          "imageUrl": "https://nextjs.org/favicon.ico?favicon.d29c4393.ico",
-          "width": 30,
-          "title": "NextJS - Uso activo",
-          "alt": "NextJS icon",
-          "techIndicator": "active"
-        },
-        {
-          "imageUrl": "/icons/bootstrap.webp",
-          "width": 55,
-          "title": "Bootstrap - Uso activo",
-          "alt": "Bootstrap icon",
-          "techIndicator": "active"
-        },
-        {
-          "imageUrl": "/icons/tailwind-css.webp",
-          "width": 50,
-          "title": "Tailwind CSS - Uso activo",
-          "alt": "Tailwind CSS icon",
-          "techIndicator": "active"
-        }
-      ]
-    },
-    {
       "id": "backend",
       "name": "Backend",
       "technologies": [
@@ -67,6 +26,13 @@
           "techIndicator": "active"
         },
         {
+          "imageUrl": "/icons/spring-boot.svg",
+          "width": 50,
+          "title": "Spring Boot - Uso activo",
+          "alt": "Spring Boot icon",
+          "techIndicator": "active"
+        },
+        {
           "imageUrl": "/icons/dotnet.svg",
           "width": 50,
           "title": "Dotnet Core",
@@ -79,6 +45,40 @@
           "title": "Laravel",
           "alt": "Laravel icon",
           "techIndicator": "past"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "technologies": [
+        {
+          "imageUrl": "/icons/angular.ico",
+          "width": 40,
+          "title": "Angular - Uso activo",
+          "alt": "Angular icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/react.svg",
+          "width": 50,
+          "title": "React",
+          "alt": "React icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/bootstrap.webp",
+          "width": 55,
+          "title": "Bootstrap - Uso activo",
+          "alt": "Bootstrap icon",
+          "techIndicator": "active"
+        },
+        {
+          "imageUrl": "/icons/tailwind-css.webp",
+          "width": 50,
+          "title": "Tailwind CSS - Uso activo",
+          "alt": "Tailwind CSS icon",
+          "techIndicator": "active"
         }
       ]
     },
@@ -190,7 +190,7 @@
     {
       "id": 2,
       "title": "ZiziCar",
-      "subtitle": "(HomePage)",
+      "subtitle": "(HomePage + Admin)",
       "description": "ZiziCar es una plataforma digital integral que revoluciona el mercado de alquiler de vehículos en Colombia, conectando a usuarios que buscan rentar automóviles con múltiples agencias de alquiler y propietarios particulares en un ecosistema unificado.",
       "image": "/imgs/projects/zizicar-web.webp",
       "imageAlt": "ZiziCar image",
@@ -200,7 +200,6 @@
           "url": "https://github.com/FernandoDev19/ZiziCar"
         }
       ],
-      "demoLink": "https://zizicar.com",
       "technologies": [
         {
           "icon": "/icons/angular.ico",

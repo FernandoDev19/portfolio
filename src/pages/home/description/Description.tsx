@@ -16,13 +16,13 @@ export default function Description() {
           className="text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-bold mb-6"
           style={{ lineHeight: "0.9" }}
         >
-          <span className="text-primary">Desarrollador Full Stack</span>
+          <span className="text-primary">Desarrollador Backend</span>
         </h2>
 
         {/* Descripción */}
         <p className="text-neutral-400 dark:text-neutral-300 text-center md:text-left mb-8 max-w-md">
-          Apasionado Desarrollador Full Stack con más de 2 años de experiencia
-          en la creación y mantenimiento de aplicaciones web eficientes.
+          Apasionado Desarrollador Backend especializado en NodeJS (NestJS, Express) y 
+          Java (Spring Boot), con experiencia en integración Frontend (Angular, React).
         </p>
 
         {/* Botón de contacto */}

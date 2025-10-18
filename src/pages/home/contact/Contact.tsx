@@ -71,7 +71,7 @@ export default function Contact() {
 
       <div className="flex flex-col md:flex-row gap-6 justify-between items-center w-full">
         <div className="w-full md:w-1/2 text-neutral-600 dark:text-neutral-100 text-2xl text-center">
-          <p>Estoy interesado en trabajar como Desarrollador JavaScript Full Stack.</p>
+          <p>Estoy interesado en trabajar como Desarrollador Backend.</p>
           <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarme.</p>
         </div>
 
