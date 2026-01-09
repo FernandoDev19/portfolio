@@ -28,9 +28,9 @@
         {
           "imageUrl": "/icons/spring-boot.svg",
           "width": 50,
-          "title": "Spring Boot - Uso activo",
+          "title": "Spring Boot - Aprendiendo",
           "alt": "Spring Boot icon",
-          "techIndicator": "active"
+          "techIndicator": "learning"
         },
         {
           "imageUrl": "/icons/dotnet.svg",

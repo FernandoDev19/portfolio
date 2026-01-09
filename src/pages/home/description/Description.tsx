@@ -21,8 +21,7 @@ export default function Description() {
 
         {/* Descripción */}
         <p className="text-neutral-400 dark:text-neutral-300 text-center md:text-left mb-8 max-w-md">
-          Apasionado Desarrollador Backend especializado en NodeJS (NestJS, Express) y 
-          Java (Spring Boot), con experiencia en integración Frontend (Angular, React).
+          Apasionado Desarrollador Backend especializado en NodeJS (NestJS, Express), con experiencia en integración Frontend (Angular, React).
         </p>
 
         {/* Botón de contacto */}
