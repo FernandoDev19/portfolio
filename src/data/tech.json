@@ -302,6 +302,52 @@
     },
     {
       "id": 5,
+      "title": "Sistema de Gestión de Ventas e Inventarios",
+      "image": "/imgs/projects/ventas-scano.png",
+      "imageAlt": "Sistema de Gestión de Ventas e Inventarios image",
+      "technologies": [
+        {
+          "icon": "/icons/react.svg",
+          "width": 30,
+          "title": "React",
+          "alt": "React icon"
+        },
+        {
+          "icon": "/icons/typescript.webp",
+          "width": 30,
+          "title": "TypeScript",
+          "alt": "TypeScript icon"
+        },
+        {
+          "icon": "/icons/nestjs.ico",
+          "width": 30,
+          "title": "NestJS",
+          "alt": "NestJS icon"
+        },
+        {
+          "icon": "/icons/tailwind-css.webp",
+          "width": 30,
+          "title": "Tailwind CSS",
+          "alt": "Tailwind CSS icon"
+        },
+        {
+          "icon": "/icons/mongodb-icon.svg",
+          "width": 40,
+          "title": "MongoDB",
+          "alt": "MongoDB icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/ventas-s-cano"
+        }
+      ],
+      "demoLink": "https://ventas-scano.netlify.app",
+      "description": "Aplicación web desarrollada para un pequeño negocio familiar de comidas (pollos al carbón, pasteles y acompañantes), cuyo objetivo es controlar el inventario, los gastos y registrar las ventas de forma sencilla y organizada."
+    },
+    {
+      "id": 6,
       "title": "Venta de Autos nuevos",
       "subtitle": "(Landingpage)",
       "image": "/imgs/projects/landingpage-venta-autos.png",
@@ -328,7 +374,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Product List Cart",
       "subtitle": "(Ejercicio)",
       "image": "/imgs/projects/product-list-react-exercise.png",
@@ -362,7 +408,7 @@
       "demoLink": "https://product-list-cart-exercise.netlify.app"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Tienda de maquillajes",
       "subtitle": "(Con administrador)",
       "image": "/imgs/projects/tienda-maquillaje.png",
@@ -405,7 +451,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Fiesta XV Años",
       "subtitle": "(Invitación)",
       "image": "/imgs/projects/birthday-invitation.png",
@@ -450,7 +496,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Fiesta XV Años V2",
       "subtitle": "(Invitación)",
       "image": "/imgs/projects/birthday-invitation-jhose-v2.png",
@@ -495,7 +541,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Boda",
       "subtitle": "(Invitación)",
       "image": "/imgs/projects/boda-invitation.png",
@@ -529,7 +575,7 @@
       "demoLink": "https://boda-v1.netlify.app"
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Boda 2",
       "subtitle": "(Invitación)",
       "image": "/imgs/projects/boda-isa.png",
@@ -563,7 +609,7 @@
       "demoLink": "https://boda-v2.netlify.app"
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Fiesta niños",
       "subtitle": "(Invitación)",
       "image": "/imgs/projects/fiesta-stitch.png",
