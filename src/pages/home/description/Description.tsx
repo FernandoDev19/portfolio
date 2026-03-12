@@ -16,12 +16,17 @@ export default function Description() {
           className="text-4xl md:text-5xl lg:text-6xl text-center md:text-left font-bold mb-6"
           style={{ lineHeight: "0.9" }}
         >
-          <span className="text-primary">Desarrollador Backend</span>
+          <span className="text-primary">Desarrollador FullStack</span>
         </h2>
 
         {/* Descripción */}
         <p className="text-neutral-400 dark:text-neutral-300 text-center md:text-left mb-8 max-w-md">
-          Apasionado Desarrollador Backend especializado en NodeJS (NestJS, Express), con experiencia en integración Frontend (Angular, React).
+          Desarrollador Full Stack con experiencia en el desarrollo de
+          aplicaciones web utilizando Angular, React, Nest.js. He trabajado en
+          la digitalización de procesos manuales, construcción de APIs REST e
+          integración de servicios externos, creando soluciones prácticas y
+          mantenibles. Me enfoco en escribir código limpio, aplicar buenas
+          prácticas y aportar soluciones que generen valor real al negocio.
         </p>
 
         {/* Botón de contacto */}

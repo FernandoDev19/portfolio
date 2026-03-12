@@ -17,7 +17,7 @@ export default function ProjectsPreview() {
         className="w-full grid gap-8"
         style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}
       >
-        {techList.projects.slice(1, 4).map((project) => (
+        {techList.projects.slice(0, 4).map((project) => (
           <ProjectItem key={project.id} {...project} />
         ))}
       </div>

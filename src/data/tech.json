@@ -138,10 +138,12 @@
   ],
   "projects": [
     {
-      "id": 1,
-      "title": "Portafolio",
-      "image": "/imgs/projects/portfolio.png",
-      "imageAlt": "Portafolio image",
+      "id": 14,
+      "title": "RentCheck",
+      "subtitle": "El \"Datacrédito\" de las rentadoras de vehículos",
+      "description": "RentCheck es una plataforma B2B para empresas de alquiler de vehículos que centraliza el historial crediticio y de comportamiento de sus clientes. Permite a las rentadoras consultar el score reputacional de un cliente antes de entregarle un vehículo, basado en feedbacks de otras empresas de la red, y verificar su identidad mediante biometría. El objetivo es reducir el fraude, los impagos y la suplantación de identidad en el sector.",
+      "image": "/imgs/projects/rentcheck-dashboard.png",
+      "imageAlt": "RentCheck dashboard image",
       "technologies": [
         {
           "icon": "/icons/react.svg",
@@ -162,28 +164,22 @@
           "alt": "Tailwind CSS icon"
         },
         {
-          "icon": "https://www.emailjs.com/favicon/favicon-32x32.png",
+          "icon": "/icons/nestjs.ico",
           "width": 30,
-          "title": "EmailJS",
-          "alt": "EmailJS icon"
+          "title": "NestJS",
+          "alt": "NestJS icon"
         },
         {
-          "icon": "https://zod.dev/_next/image?url=%2Flogo%2Flogo-glow.png&w=256&q=100",
+          "icon": "/icons/postgresql.webp",
           "width": 30,
-          "title": "Zod",
-          "alt": "Zod icon"
-        },
-        {
-          "icon": "https://vite.dev/logo.svg",
-          "width": 30,
-          "title": "Vite",
-          "alt": "Vite icon"
+          "title": "PostgreSQL",
+          "alt": "PostgreSQL icon"
         }
       ],
       "githubLinks": [
         {
           "text": "Ver en GitHub",
-          "url": "https://github.com/FernandoDev19/portfolio"
+          "url": "https://github.com/FernandoDev19/rentcheck"
         }
       ]
     },
@@ -343,8 +339,57 @@
           "url": "https://github.com/FernandoDev19/ventas-s-cano"
         }
       ],
-      "demoLink": "https://ventas-scano.netlify.app",
       "description": "Aplicación web desarrollada para un pequeño negocio familiar de comidas (pollos al carbón, pasteles y acompañantes), cuyo objetivo es controlar el inventario, los gastos y registrar las ventas de forma sencilla y organizada."
+    },
+        {
+      "id": 1,
+      "title": "Portafolio",
+      "image": "/imgs/projects/portfolio.png",
+      "imageAlt": "Portafolio image",
+      "technologies": [
+        {
+          "icon": "/icons/react.svg",
+          "width": 30,
+          "title": "React",
+          "alt": "React icon"
+        },
+        {
+          "icon": "/icons/typescript.webp",
+          "width": 30,
+          "title": "TypeScript",
+          "alt": "TypeScript icon"
+        },
+        {
+          "icon": "/icons/tailwind-css.webp",
+          "width": 35,
+          "title": "Tailwind CSS",
+          "alt": "Tailwind CSS icon"
+        },
+        {
+          "icon": "https://www.emailjs.com/favicon/favicon-32x32.png",
+          "width": 30,
+          "title": "EmailJS",
+          "alt": "EmailJS icon"
+        },
+        {
+          "icon": "https://zod.dev/_next/image?url=%2Flogo%2Flogo-glow.png&w=256&q=100",
+          "width": 30,
+          "title": "Zod",
+          "alt": "Zod icon"
+        },
+        {
+          "icon": "https://vite.dev/logo.svg",
+          "width": 30,
+          "title": "Vite",
+          "alt": "Vite icon"
+        }
+      ],
+      "githubLinks": [
+        {
+          "text": "Ver en GitHub",
+          "url": "https://github.com/FernandoDev19/portfolio"
+        }
+      ]
     },
     {
       "id": 6,
