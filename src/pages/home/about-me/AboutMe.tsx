@@ -1,5 +1,6 @@
 import { useScrollReveal } from "../../../hooks/useScrollReveal";
 import Counter from "../../../components/Counter";
+import { TECH } from "../../../data/tech";
 
 export default function AboutMe() {
   const { ref: textRef, isVisible: textVisible } = useScrollReveal({ threshold: 0.1 });
@@ -38,7 +39,7 @@ export default function AboutMe() {
             </div>
             <div className="flex flex-col">
               <span className="text-3xl font-bold text-primary">
-                <Counter end={15} suffix="+" />
+                <Counter end={TECH.projects.length} suffix="+" />
               </span>
               <span className="text-sm uppercase tracking-wider">Proyectos</span>
             </div>
