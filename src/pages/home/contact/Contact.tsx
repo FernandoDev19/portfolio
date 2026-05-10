@@ -2,6 +2,11 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+import { useScrollReveal } from "../../../hooks/useScrollReveal";
+
+const MySwal = withReactContent(Swal);
 
 const contactSchema = z.object({
   name: z
@@ -23,7 +28,9 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>;
 
 export default function Contact() {
+  const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
   emailjs.init("Ffb8bBPp71LGwl6Yo");
+  
   const {
     register,
     handleSubmit,
@@ -34,6 +41,14 @@ export default function Contact() {
   });
 
   const onSubmit = async (data: ContactFormData) => {
+    MySwal.fire({
+      title: 'Enviando mensaje...',
+      allowOutsideClick: false,
+      didOpen: () => {
+        MySwal.showLoading();
+      },
+    });
+
     try {
       const serviceID = "default_service";
       const templateID = "template_d9xq9bb";
@@ -42,26 +57,29 @@ export default function Contact() {
         contact_email: data.email,
         contact_message: data.message,
       };
-      emailjs.send(serviceID, templateID, formData).then(
-        function (response) {
-          console.log("Correo enviado con éxito:", response);
-          alert("¡Gracias! Tu mensaje ha sido enviado.");
-          reset();
-        },
-        function (error) {
-          console.error("Error al enviar el correo:", error);
-          alert(
-            "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo."
-          );
-        }
-      );
+
+      await emailjs.send(serviceID, templateID, formData);
+      
+      MySwal.fire({
+        icon: 'success',
+        title: '¡Mensaje enviado!',
+        text: 'Gracias por contactarme, te responderé lo antes posible.',
+        confirmButtonColor: 'var(--primary)',
+      });
+      reset();
     } catch (error) {
-      console.error("Error al enviar el formulario:", error);
+      console.error("Error al enviar el correo:", error);
+      MySwal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.',
+        confirmButtonColor: '#ef4444',
+      });
     }
   };
 
   return (
-    <>
+    <div ref={ref as any} className={`w-full reveal reveal-scale ${isVisible ? 'is-visible' : ''}`}>
       <h1
         id="contact"
         className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-600 dark:text-neutral-100 border-b border-l rounded-xl border-neutral-300 py-2 px-4 w-full mb-12"
@@ -141,6 +159,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </>
+    </div>
   );
 }

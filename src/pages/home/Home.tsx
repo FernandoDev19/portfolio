@@ -2,23 +2,27 @@ import Description from "./description/Description";
 import Skills from "./skills/Skills";
 import ProjectsPreview from "./projects-preview/ProjectsPreview";
 import Contact from "./contact/Contact";
+import AboutMe from "./about-me/AboutMe";
 import { useEffect } from "react";
+import { TECH } from "../../data/tech";
 
 export default function Home() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+  }, []);
 
   return (
     <>
       <div className="flex flex-col items-center justify-center home">
         <Description />
 
-        <ProjectsPreview />
+        <ProjectsPreview projects={TECH.projects} />
 
         <Skills />
-        {/* <ComplementarySkills /> */}
+        
         <Contact />
+
+        <AboutMe />
       </div>
 
       {/* <NavLink

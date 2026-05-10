@@ -1,14 +1,16 @@
+import type { TechIndicator } from "../../../../../data/tech";
+
 type Props = {
     imageUrl: string;
     width: number;
     title: string;
     alt: string;
-    techIndicator: "active" | "learning" | "past" | "discontinued";
+    techIndicator: TechIndicator;
 };
 
 export default function TechItem({imageUrl, width, title, alt, techIndicator}: Props) {
   return (
-    <li className="tech-item flex flex-col items-center justify-center">
+    <li className="tech-item  flex flex-col items-center justify-center">
       <div className="relative">
         <img
           loading="lazy"

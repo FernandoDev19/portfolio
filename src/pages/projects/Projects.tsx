@@ -1,5 +1,5 @@
+import { TECH } from '../../data/tech';
 import ProjectItem from './ProjectItem';
-import techList from '../../data/tech.json';
 import { useEffect } from 'react';
 
 export default function Projects() {
@@ -17,7 +17,7 @@ export default function Projects() {
         className="w-full grid gap-8"
         style={{gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))"}}
       >
-        {techList.projects.map((project) => (
+        {TECH.projects.map((project) => (
           <ProjectItem
             key={project.id}
             {...project}

@@ -1,9 +1,11 @@
+import type { TechIndicator } from "../../../../../data/tech"
+
 type Props = {
-  type: "active" | "learning" | "past" | "discontinued"
+  type: TechIndicator;
 }
 
 export default function TechIndicators({ type }: Props) {
-  const typeMap = {
+  const typeMap: Record<TechIndicator, string> = {
     active: "Uso activo",
     learning: "En Aprendizaje",
     past: "Experiencia pasada",
