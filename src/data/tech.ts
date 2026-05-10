@@ -252,6 +252,12 @@ export const TECH: TechType = {
                     title: "PostgreSQL",
                     alt: "PostgreSQL icon",
                 },
+                {
+                    icon: "/icons/docker.png",
+                    width: 30,
+                    title: "Docker",
+                    alt: "Docker icon",
+                }
             ],
             // demoLink: "https://rentcheck-frontend.onrender.com",
             githubLinks: [
