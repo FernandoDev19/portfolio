@@ -298,8 +298,8 @@ export const TECH: TechType = {
         {
           icon: "/icons/expo.webp",
           width: 30,
-          title: "React Native",
-          alt: "React Native icon",
+          title: "Expo",
+          alt: "Expo icon",
         },
         {
           icon: "/icons/react.svg",
@@ -424,7 +424,7 @@ export const TECH: TechType = {
         {
           icon: "/icons/bootstrap.webp",
           width: 30,
-          title: "Bootstrap CSS",
+          title: "Bootstrap",
           alt: "Bootstrap CSS icon",
         },
         {
@@ -459,7 +459,7 @@ export const TECH: TechType = {
         {
           icon: "/icons/bootstrap.webp",
           width: 30,
-          title: "Bootstrap CSS",
+          title: "Bootstrap",
           alt: "Bootstrap icon",
         },
         {
