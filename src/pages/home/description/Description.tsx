@@ -2,7 +2,7 @@ import { useTypewriter } from "../../../hooks/useTypewriter";
 import { useScrollReveal } from "../../../hooks/useScrollReveal";
 
 const ROLES = [
-  "Desarrollador FullStack",
+  "FullStack Developer",
   "Backend Developer",
   "Frontend Developer",
   "API Architect",
@@ -57,14 +57,16 @@ export default function Description() {
             className="about-me-buttons text-neutral-700 cursor-pointer rounded-full! py-4! px-5! flex items-center justify-center"
             target="_blank"
           >
-            <i className="fab fa-github text-2xl"></i>
+            <i className="fab fa-github text-xl mr-2"></i>
+            <span>GitHub</span>
           </a>
           <a
             href="https://www.linkedin.com/in/fernando-cano-developer"
             className="about-me-buttons text-neutral-700 cursor-pointer rounded-full! py-4! px-5! flex items-center justify-center"
             target="_blank"
           >
-            <i className="fab fa-linkedin text-2xl"></i>
+            <i className="fab fa-linkedin text-xl mr-2"></i>
+            <span>LinkedIn</span>
           </a>
 
           <a
@@ -72,8 +74,8 @@ export default function Description() {
             className="about-me-buttons text-neutral-700 cursor-pointer rounded-full! py-4! px-5! flex items-center justify-center"
             target="_blank"
           >
-            <i className="fas fa-eye mr-3"></i>
-            CV
+            <i className="fas fa-eye text-xl mr-2"></i>
+            <span>CV</span>
           </a>
         </div>
       </div>
@@ -81,7 +83,7 @@ export default function Description() {
       {/* Contenido derecho - Imagen */}
       <div
         ref={rightRef}
-        className={`flex flex-col items-center lg:items-end lg:flex-shrink-0 reveal reveal-right ${rightVisible ? "is-visible" : ""}`}
+        className={`flex flex-col items-center lg:items-end lg:shrink-0 reveal reveal-right ${rightVisible ? "is-visible" : ""}`}
       >
         <div className="relative mb-6">
           <img
