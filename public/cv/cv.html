@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fernando Cano - CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+    body {
+      font-family: 'El Messiri', sans-serif;
+      user-select: text;
+      -webkit-user-select: text;
+      -moz-user-select: text;
+    }
+
+    .Inter {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Custom blue bullets */
+    .custom-bullets li {
+      position: relative;
+      padding-left: 1.25rem;
+    }
+
+    .custom-bullets li::before {
+      content: "•";
+      color: #2563eb;
+      font-size: 1.25rem;
+      position: absolute;
+      left: 0;
+      top: -2px;
+    }
+
+    /* Links siempre azules y seleccionables */
+    a {
+      color: #2563eb;
+      cursor: pointer;
+      user-select: text;
+      -webkit-user-select: text;
+      -moz-user-select: text;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* SOLO para impresión - estilos mínimos */
+    @media print {
+      .no-print {
+        display: none;
+      }
+
+      body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        color: #2563eb;
+        text-decoration: underline;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-800 antialiased">
+
+  <div class="fixed bottom-6 right-6 no-print">
+    <button onclick="window.print()"
+      class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 px-5 rounded-lg shadow-md transition duration-200 text-sm">
+      Imprimir / Guardar PDF
+    </button>
+  </div>
+
+  <div class="w-full h-2 bg-gradient-to-r from-blue-600 to-green-400"></div>
+
+  <div class="max-w-5xl mx-auto pt-12 pb-10">
+
+    <header class="mb-10 px-10">
+      <h1 class="text-[40px] font-extrabold tracking-tight text-slate-900 leading-none Inter">FERNANDO CANO TAPIAS</h1>
+      <p class="text-lg font-bold text-blue-600 tracking-wide uppercase mt-2 Inter">DESARROLLADOR FULL STACK</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div class="px-6 py-6 md:col-span-1 space-y-10 pr-2 border-r border-slate-200 w-full overflow-hidden">
+
+        <section>
+          <h2
+            class="Inter text-lg font-bold text-slate-900 uppercase tracking-wider border-b-2 border-blue-600 pb-1 mb-5">
+            Contacto</h2>
+          <div class="space-y-3 text-[14px] text-slate-700 break-all">
+            <div class="flex items-center gap-3">
+              <span class="text-blue-600 text-base flex-shrink-0 text-xs">📍</span>
+              <div class="flex flex-col">
+                <span>Barranquilla, Colombia</span>
+                <span class="text-neutral-500 text-xs">(Disponibilidad para viajar)</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-blue-600 text-base flex-shrink-0 text-xs">📞</span>
+              <span>+57 300 544 2580</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-blue-600 text-base flex-shrink-0 text-xs">✉️</span>
+              <a href="mailto:fernandocanotapias@gmail.com">fernandocanotapias@gmail.com</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <span
+                class="bg-blue-600 text-white font-bold text-[11px] py-0.5 px-1.5 rounded flex-shrink-0 text-xs">in</span>
+              <a href="https://www.linkedin.com/in/fernando-cano-developer">linkedin.com/in/fernando-cano-developer</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-blue-600 text-base flex-shrink-0 text-xs">🔗</span>
+              <a href="https://github.com/FernandoDev19">github.com/FernandoDev19</a>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="text-blue-600 text-base flex-shrink-0 text-xs">🌐</span>
+              <a href="https://fernando-dev-19.netlify.app">Portafolio Web | fernando-dev-19.netlify.app</a>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2
+            class="Inter text-lg font-bold text-slate-900 uppercase tracking-wider border-b-2 border-blue-600 pb-1 mb-5">
+            Tecnologías</h2>
+          <div class="space-y-5 text-[13px]">
+            <div>
+              <span class="font-bold text-slate-800 uppercase tracking-wide block mb-2">Frontend</span>
+              <div class="flex flex-wrap gap-1.5">
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">NextJS</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Expo
+                  (React Native)</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Angular</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">TailwindCSS</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Bootstrap</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">HTML /
+                  CSS</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-bold text-slate-800 uppercase tracking-wide block mb-2">Backend</span>
+              <div class="flex flex-wrap gap-1.5">
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">NestJS</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Express.js</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">FastAPI
+                  (En aprendizaje)</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-bold text-slate-800 uppercase tracking-wide block mb-2">Bases de Datos</span>
+              <div class="flex flex-wrap gap-1.5">
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">PostgreSQL</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">MongoDB</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">MySQL</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">SQLite</span>
+              </div>
+            </div>
+            <div>
+              <span class="font-bold text-slate-800 uppercase tracking-wide block mb-2">DevOps & Cloud</span>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">AWS
+                  (EC2, S3)</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Azure
+                  DevOps</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Git</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">Docker</span>
+                <span
+                  class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-slate-200/60 font-medium">GitHub
+                  / GitLab</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2
+            class="Inter text-lg font-bold text-slate-900 uppercase tracking-wider border-b-2 border-blue-600 pb-1 mb-4">
+            Idiomas</h2>
+          <div class="space-y-2.5 text-[14px]">
+            <div class="flex justify-between items-center">
+              <span class="font-semibold text-slate-800">Español</span>
+              <span class="bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded text-xs">Nativo</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-semibold text-slate-800">Inglés</span>
+              <span class="bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded text-xs">B1 Lectura</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2
+            class="Inter text-lg font-bold text-slate-900 uppercase tracking-wider border-b-2 border-blue-600 pb-1 mb-5">
+            Educación</h2>
+          <div class="space-y-5 text-[13px]">
+            <div>
+              <span class="bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded text-[11px] inline-block mb-1">2025 -
+                Presente</span>
+              <h3 class="font-bold text-slate-950 text-[14px]">JavaScript MEAN Mastery</h3>
+              <p class="text-slate-800 font-medium">Dev Senior Code</p>
+              <p class="text-slate-500 italic text-[12px]">Especialidad Senior Full Stack</p>
+            </div>
+            <div>
+              <span class="bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded text-[11px] inline-block mb-1">2025 -
+                Pausado</span>
+              <h3 class="font-bold text-slate-950 text-[14px]">Ingeniería de Software</h3>
+              <p class="text-slate-800 font-medium">U. Iberoamericana de Bogotá</p>
+              <p class="text-slate-500 italic text-[12px]">Cursado hasta 3º Semestre (Virtual)</p>
+            </div>
+            <div>
+              <span class="bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded text-[11px] inline-block mb-1">2021 -
+                2023</span>
+              <h3 class="font-bold text-slate-950 text-[14px]">Téc. en Programación</h3>
+              <p class="text-slate-800 font-medium">SENA Sede TIC</p>
+              <p class="text-slate-500 italic text-[12px]">Desarrollo práctico de Software</p>
+            </div>
+            <div>
+              <span class="bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded text-[11px] inline-block mb-1">2016 -
+                2021</span>
+              <h3 class="font-bold text-slate-950 text-[14px]">Bachiller Técnico</h3>
+              <p class="text-slate-800 font-medium">I. E. D. Alberto Assa</p>
+              <p class="text-slate-500 italic text-[12px]">Mantenimiento de computadores</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2
+            class="Inter text-lg font-bold text-slate-900 uppercase tracking-wider border-b-2 border-blue-600 pb-1 mb-4">
+            Otros Conocimientos</h2>
+          <div class="flex flex-wrap gap-1.5 text-[12px]">
+            <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">PHP /
+              Laravel</span>
+            <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">C# /
+              .Net Core</span>
+            <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">SQL
+              Server</span>
+            <span
+              class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">Redis</span>
+            <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">PM2 &
+              Nginx</span>
+            <span
+              class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">PrimeNG</span>
+            <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">MVC
+              Pattern</span>
+            <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded border border-emerald-200/60 font-medium">Clean
+              Code</span>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="pr-12 py-6 md:col-span-2 space-y-9">
+
+        <section>
+          <h2
+            class="Inter text-xl font-bold text-slate-900 uppercase tracking-wider border-b-2 border-slate-200 pb-1 mb-4">
+            Resumen Profesional</h2>
+          <p class="text-[14px] text-slate-700 leading-relaxed text-justify">
+            Desarrollador Full Stack con +3 años de experiencia creando aplicaciones web escalables con <strong>Angular,
+              React y NestJS.</strong> Especializado en digitalizar procesos manuales, construir APIs REST y entregar
+            soluciones que generan valor de negocio real. Apasionado por código limpio, arquitectura sólida y productos
+            que impactan positivamente en los usuarios.
+          </p>
+        </section>
+
+        <section>
+          <h2
+            class="Inter text-xl font-bold text-slate-900 uppercase tracking-wider border-b-2 border-slate-200 pb-1 mb-6">
+            Experiencia Laboral</h2>
+
+          <div class="space-y-8">
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2 mb-1">
+                <h3 class="text-[17px] font-bold text-slate-900">Ing. de Desarrollo</h3>
+                <span class="bg-blue-50 text-blue-600 font-bold px-2.5 py-0.5 rounded text-xs">03/2025 – 06/2025</span>
+              </div>
+              <div class="text-[14px] font-medium text-slate-500 mb-3">
+                Globalsoft <span class="mx-1.5">•</span> Barranquilla, Colombia (Híbrido)
+              </div>
+              <div class="flex flex-wrap gap-1.5 mb-3 text-[11px]">
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">.NET Core
+                  (C#)</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Angular</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">SQL
+                  Server</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Azure
+                  DevOps</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Git</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Bootstrap</span>
+              </div>
+              <ul class="custom-bullets text-[13.5px] text-slate-700 space-y-1.5 text-justify">
+                <li>Desarrollé y mantuve nuevas funcionalidades para distintos clientes en los módulos odontológico y
+                  financiero, adaptando el sistema a requerimientos específicos.</li>
+                <li>Realicé refactorización de código legado, mejorando significativamente la mantenibilidad y
+                  corrigiendo funcionalidades obsoletas.</li>
+                <li>Implementé y ajusté APIs REST para garantizar la comunicación fluida entre diversos módulos del
+                  sistema.</li>
+                <li>Optimicé consultas y estructuras de base de datos en SQL Server, aumentando la eficiencia y
+                  estabilidad del sistema.</li>
+                <li>Administré flujos de trabajo en Git, definiendo políticas de ramas, control de merges y buenas
+                  prácticas de versionado en el equipo.</li>
+                <li>Participé fuertemente en las decisiones de Frontend, optimizando interfaces utilizando CSHTML,
+                  Bootstrap y jQuery.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2 mb-1">
+                <h3 class="text-[17px] font-bold text-slate-900">Desarrollador Full Stack</h3>
+                <span class="bg-blue-50 text-blue-600 font-bold px-2.5 py-0.5 rounded text-xs">04/2023 – 02/2025</span>
+              </div>
+              <div class="text-[14px] font-medium text-slate-500 mb-3">
+                Milano Rent a Car <span class="mx-1.5">•</span> Barranquilla, Colombia (Presencial)
+              </div>
+              <div class="flex flex-wrap gap-1.5 mb-3 text-[11px]">
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">NestJS</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Angular</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">AWS
+                  (EC2/S3)</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">PostgreSQL</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">MySQL</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">TailwindCSS</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Redis</span>
+              </div>
+              <ul class="custom-bullets text-[13.5px] text-slate-700 space-y-1.5 text-justify">
+                <li>Lideré el desarrollo desde cero de ZiziCar, digitalizando el 100% de los procesos manuales y
+                  reduciendo tiempos operativos significativamente.</li>
+                <li>Desarrollé y mantuve aplicaciones web aplicando arquitectura MVC y patrones de diseño modernos.</li>
+                <li>Implementé y consumí APIs RESTful para integración con pasarelas de pago y servicios externos de
+                  verificación.</li>
+                <li>Diseñé y optimicé bases de datos relacionales en MySQL y PostgreSQL, mejorando notablemente los
+                  tiempos de respuesta.</li>
+                <li>Construí <strong class="text-slate-950">TuRepuestoYa</strong>, portal de comparación y ventas de
+                  repuestos en toda Colombia, elevando la captación de prospectos de negocio.</li>
+                <li>Automaticé el envío de alertas y notificaciones a clientes implementando integraciones con la API
+                  oficial de WhatsApp.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2
+            class="Inter text-xl font-bold text-slate-900 uppercase tracking-wider border-b-2 border-slate-200 pb-1 mb-6">
+            Proyectos Freelance y Destacados</h2>
+
+          <div class="space-y-8">
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2 mb-1">
+                <h3 class="text-[17px] font-bold text-slate-900">RentCheck <span class="font-normal text-slate-500">—
+                    B2B Anti-fraude</span></h3>
+                <span class="bg-blue-50 text-blue-600 font-bold px-2.5 py-0.5 rounded text-xs">2026</span>
+              </div>
+              <div class="text-[13.5px] italic text-slate-500 mb-3">
+                Plataforma B2B para rentadoras de vehículos
+              </div>
+              <div class="flex flex-wrap gap-1.5 mb-3 text-[11px]">
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Next.js</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">TailwindCSS</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">NestJS</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">PostgreSQL</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">AWS
+                  (S3/EC2)</span>
+              </div>
+              <ul class="custom-bullets text-[13.5px] text-slate-700 space-y-1.5 text-justify">
+                <li>Concebí y desarrollé <strong class="text-slate-900">RentCheck</strong>, denominado el *"Datacrédito
+                  de las rentadoras de vehículos"*, centralizando historiales crediticios e incidentes de clientes.</li>
+                <li>Permite a empresas de alquiler consultar el <strong class="text-slate-900">Score
+                    Reputacional</strong> de usuarios mediante reportes cruzados antes de adjudicar vehículos.</li>
+                <li>Implementé una avanzada verificación de identidad mediante reconocimiento biométrico integrado con
+                  <strong class="text-slate-900">Become Digital</strong> para mitigar suplantaciones.</li>
+                <li><strong class="text-slate-900">Objetivo logrado:</strong> Reducción drástica del fraude, robos,
+                  impagos y suplantaciones en el sector del alquiler de vehículos.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2 mb-1">
+                <h3 class="text-[17px] font-bold text-slate-900">Sistema de Gestión de Ventas e Inventarios (FastPOS /
+                  SaborEspress)</h3>
+                <span class="bg-blue-50 text-blue-600 font-bold px-2.5 py-0.5 rounded text-xs">2026</span>
+              </div>
+              <div class="text-[13.5px] italic text-slate-500 mb-3">
+                Solución full-stack automatizada y multi-dispositivo para la gestión de pedidos y control de inventario
+                de un negocio gastronómico. Diseñado bajo arquitectura Offline-First con un menú web para clientes y una
+                app móvil nativa para la administración que opera de forma híbrida (online/offline).
+              </div>
+              <div class="flex flex-wrap gap-1.5 mb-3 text-[11px]">
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Expo
+                  (React Native)</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">React
+                  (NextJS/Netlify)</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Supabase
+                  (PostgreSQL)</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">SQLite
+                  (Local DB)</span>
+                <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">Deno (Edge
+                  Functions)</span>
+                <span
+                  class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded border border-blue-100 font-medium">TypeScript</span>
+              </div>
+              <ul class="custom-bullets text-[13.5px] text-slate-700 space-y-1.5 text-justify">
+                <li><strong>Arquitectura Offline-First y Sincronización Bidireccional:</strong> Implementé un motor de
+                  sincronización personalizado utilizando NetInfo y transacciones SQL optimizadas en SQLite, permitiendo
+                  la descarga de catálogos y la subida de ventas locales en lotes sin bloquear la interfaz.</li>
+                <li><strong>Notificaciones Híbridas en Tiempo Real:</strong> Desarrollé un flujo con canales Realtime
+                  (Postgres Changes) para la app abierta, y Webhooks conectados a Edge Functions en Deno que disparan
+                  notificaciones push remotas mediante el servidor de Expo para dispositivos bloqueados.</li>
+                <li><strong>Lógica de Negocio Compleja e Inventario Automatizado:</strong> Programé consultas preparadas
+                  y seguras en SQLite para automatizar el descuento del stock físico, calculando dinámicamente el
+                  impacto tanto en productos individuales como en los ingredientes de recetas complejas al procesar cada
+                  venta.</li>
+                <li><strong>Control Financiero y de Operaciones:</strong> Digitalicé procesos manuales habilitando
+                  reportes financieros inmediatos de ventas diarias, egresos, alertas de deudas expiradas (fiados) y
+                  notificaciones automáticas de stock mínimo.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
